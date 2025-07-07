@@ -1,0 +1,15 @@
+{
+"python.defaultInterpreterPath": "./.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+"python.analysis.extraPaths": ["./.venv/lib/python3.9/site-packages"]
+} 
+
+// update the VS Code settings to use the absolute path to the python interpreter to make sure the VS Code configuration is correct in the .vscode folder:
+// by running the following command in the terminal:
+// source .venv/bin/activate && which python
+
+//{
+//    "python.defaultInterpreterPath": "/Users/samahabdelrahim/git-repos/MCMC-P-WL/.venv/bin/python",
+//    "python.terminal.activateEnvironment": true,
+//    "python.analysis.extraPaths": ["/Users/samahabdelrahim/git-repos/MCMC-P-WL/.venv/lib/python3.9/site-packages"]
+//} 
